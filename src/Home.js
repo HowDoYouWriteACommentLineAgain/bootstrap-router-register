@@ -3,7 +3,7 @@ export default function Home(props){
 
         <>
             <h1>Home</h1>
-            <h2>Welcome {props.username}</h2>
+            <h2>Welcome {props.username}, {props.status}</h2>
         </>
     );
 }
