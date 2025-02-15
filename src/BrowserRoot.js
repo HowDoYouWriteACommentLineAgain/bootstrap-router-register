@@ -18,7 +18,7 @@ export default function BrowserRoot(){
                 <App />
                 <Container className='mt-2 rounded-lg'>
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/" element={<Home username={username} password={password} />} />
                     <Route path="/Register" element={
                         <Register 
                             username={username}
